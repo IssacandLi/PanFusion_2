@@ -1,4 +1,4 @@
-from diffusers import AutoencoderKL, DDIMScheduler, UNet2DConditionModel
+from diffusers import AutoencoderKL, DDIMScheduler, UNet2DConditionModel      #AutoencoderKL :VAE to latent representation, DDIM adding noise, UNet2DConditionModel by conditional information(txt,image) generate 
 import torch
 import os
 from PIL import Image
