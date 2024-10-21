@@ -2,7 +2,7 @@ from diffusers import AutoencoderKL, DDIMScheduler, UNet2DConditionModel      #A
 import torch
 import os
 from PIL import Image
-from transformers import CLIPTextModel, CLIPTokenizer
+from transformers import CLIPTextModel, CLIPTokenizer   # CLIPTextModel change the text as embedding vector, CLIPToknizer, transfer the text as token, then the CLIPtexmodel generate as embedding vector.
 import numpy as np
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from external.MVDiffusion.pano.MVGenModel import MultiViewBaseModel
